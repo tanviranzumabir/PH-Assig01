@@ -378,81 +378,85 @@ main {
 
 /* =========================
     Form Section
-    ========================= */
+========================= */
 
-/* Layout for form header and form */
 .formhead {
-     margin-right: 150px;
-     margin-left: 150px;
-     display: flex;
-     justify-content: space-between;
-     padding-bottom: 30px;
+ margin-right: 150px;
+ margin-left: 150px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-bottom: 30px;
+ gap: 60px;
 }
 
 /* Large heading for form */
 .formhea {
-     font-size: 97px;
-     font-weight: 800;
-     font-family: "Raleway", sans-serif;
-     height: 232px;
-     width: 528px;
-     margin-top: 200px;
-     margin-bottom: 200px;
+ font-size: 97px;
+ font-weight: 800;
+ font-family: "Raleway", sans-serif;
+ width: 528px;
+ margin: 0;
+ line-height: 1.1;
+ display: flex;
+ align-items: center;
+ height: auto;
+ min-height: 232px;
 }
 
 /* Get in touch button */
 .getintouch {
-     background-color: #4E47FF;
-     color: #fff;
-     border: none;
-     height: 50px;
-     width: 497px;
-     font-family: "Raleway", sans-serif;
-     font-weight: 700;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: background 0.2s;
+ background-color: #4E47FF;
+ color: #fff;
+ border: none;
+ height: 50px;
+ width: 497px;
+ font-family: "Raleway", sans-serif;
+ font-weight: 700;
+ border-radius: 10px;
+ cursor: pointer;
+ transition: background 0.2s;
 }
 
 /* Hover effect for form button */
 .getintouch:hover {
-     background-color: #eedc3a;
-     color: #252432;
+ background-color: #eedc3a;
+ color: #252432;
 }
 
 /* Input and textarea styles */
 .usform,
 .usformboro {
-     height: 50px;
-     max-width: 497px;
-     width: 497px;
-     border-radius: 10px;
-     border: none;
-     padding: 15px 30px;
-     font-family: "Raleway", sans-serif;
-     font-size: 1rem;
-     box-sizing: border-box;
+ height: 50px;
+ max-width: 497px;
+ width: 497px;
+ border-radius: 10px;
+ border: none;
+ padding: 15px 30px;
+ font-family: "Raleway", sans-serif;
+ font-size: 1rem;
+ box-sizing: border-box;
 }
 
 /* Single-line input */
 .usform {
-     height: 50px;
+ height: 50px;
 }
 
 /* Multi-line textarea */
 .usformboro {
-     min-height: 135px;
-     resize: vertical;
-     margin-bottom: 12px; /* Added space at the bottom */
+ min-height: 135px;
+ resize: vertical;
+ margin-bottom: 12px;
 }
 
 /* Label styling for form */
 .labelin {
-     font-family: "Raleway", sans-serif;
-     font-weight: 600;
-     color: black;
-     display: block;
-     margin-bottom: 1px;
+ font-family: "Raleway", sans-serif;
+ font-weight: 600;
+ color: black;
+ display: block;
+ margin-bottom: 1px;
 }
 
 /* =========================
