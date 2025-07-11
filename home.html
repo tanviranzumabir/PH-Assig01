@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
+    <!-- Meta tags for character set and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="styles/home.css">
+    <!-- Google Fonts preconnect and font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,19 +19,21 @@
 </head>
 
 <body>
+    <!-- Header section with navigation and hero content -->
     <header>
         <nav>
             <h3>LOGO</h3>
             <button>Sign Up</button>
         </nav>
 
-
+        <!-- Hero section with main message and call-to-action -->
         <section class="sec-1">
             <p class="cooldark" style="color: #252432;">Cool Dark UI Template for Webflow Agencies!</p>
             <button>Stay Focused</button>
         </section>
     </header>
     <main>
+        <!-- Section showing a live preview feature -->
         <section class="sec-2">
             <div>
                 <h2 id="seeitinaction">See It in Action</h2>
@@ -39,6 +44,7 @@
             <img src="/assets/wc-mini.png" alt="Preview" style="border-radius: 20px;">
         </section>
 
+        <!-- Section displaying user statistics -->
         <section class="sec-3">
             <p class="card-title">Join Thousands of Productive Users</p>
             <div class="stats-grid">
@@ -57,9 +63,34 @@
             </div>
         </section>
 
+        <!-- Section with user reviews/testimonials -->
         <section class="sec-4">
             <h2 class="reviewuser">What our users say</h2>
             <div class="sundorreviews">
+                <!-- Review card 1 -->
+                <div class="card-section3pis">
+                    <section>
+                        <div class="stars">
+                            <!-- Star icons for rating -->
+                            <img src="/assets/icon-star.png" alt="star">
+                            <img src="/assets/icon-star.png" alt="star">
+                            <img src="/assets/icon-star.png" alt="star">
+                            <img src="/assets/icon-star.png" alt="star">
+                            <img src="/assets/icon-star.png" alt="star">
+                            <img src="/assets/icon-star.png" alt="star">
+                        </div>
+                        <h2>Loved by Designers</h2>
+                        <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+                        <div class="user-info">
+                            <img src="/assets/avatar.png" alt="user">
+                            <div class="user-details">
+                                <div class="user-name">Julie Jess</div>
+                                <div class="user-date">Date</div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Review card 2 (duplicate content for example) -->
                 <div class="card-section3pis">
                     <section>
                         <div class="stars">
@@ -81,27 +112,7 @@
                         </div>
                     </section>
                 </div>
-                <div class="card-section3pis">
-                    <section>
-                        <div class="stars">
-                            <img src="/assets/icon-star.png" alt="star">
-                            <img src="/assets/icon-star.png" alt="star">
-                            <img src="/assets/icon-star.png" alt="star">
-                            <img src="/assets/icon-star.png" alt="star">
-                            <img src="/assets/icon-star.png" alt="star">
-                            <img src="/assets/icon-star.png" alt="star">
-                        </div>
-                        <h2>Loved by Designers</h2>
-                        <p>This template instantly leveled up our presence.” – Studio Vertex</p>
-                        <div class="user-info">
-                            <img src="/assets/avatar.png" alt="user">
-                            <div class="user-details">
-                                <div class="user-name">Julie Jess</div>
-                                <div class="user-date">Date</div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                <!-- Review card 3 (duplicate content for example) -->
                 <div class="card-section3pis">
                     <section>
                         <div class="stars">
@@ -126,22 +137,27 @@
             </div>
         </section>
 
+        <!-- Section with a call-to-action and large preview image -->
         <section class="sec-5" style="background-color: white;">
             <h2>Ready to focus better</h2>
             <p>This template instantly leveled up our presence.” – Studio Vertex</p>
             <button>Get Started Free</button><br>
             <img src="/assets/wc-big.png" alt="">
-
         </section>
+
+        <!-- Contact form section -->
         <div class="user-form">
             <section class="formhead">
                 <h1 class="formhea">Let’s Get in Touch</h1>
                 <form class="contact-form">
+                    <!-- Email input -->
                     <label class="labelin" type="email">Email</label> <br>
                     <input class="usform" type="email" id="email" name="email" placeholder="example@email.com" required>
                     <br><br>
+                    <!-- Name input -->
                     <label class="labelin" for="name">Name</label><br>
                     <input class="usform" type="name" id="name" name="name" placeholder="full name" required> <br><br>
+                    <!-- Message textarea -->
                     <label class="labelin" for="message">Message</label> <br>
                     <textarea class="usformboro" id="message" name="message" rows="4"
                         placeholder="write your message...."></textarea><br>
@@ -150,6 +166,7 @@
             </section>
         </div>
     </main>
+    <!-- Footer section with logo, description, and navigation links -->
     <footer class="foot">
         <div class="footcontentm">
             <div class="footcontent">
