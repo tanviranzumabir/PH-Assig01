@@ -1,417 +1,512 @@
-/* Font Classes */
+/* =========================
+    Font Classes
+    ========================= */
+
+/* Open Sans font for general use */
 .open-sans-haha {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-variation-settings: "wdth" 100;
 }
 
+/* Raleway font for headings and emphasis */
 .raleway-haha {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+     font-family: "Raleway", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
 }
 
-/* Header */
+/* =========================
+    Header Styles
+    ========================= */
+
+/* Header background and spacing */
 header {
-    background-image: url(/assets/Hero-bg.png);
-    padding-bottom: 100px;
+     background-image: url(/assets/Hero-bg.png);
+     padding-bottom: 100px;
 }
 
-/* Navigation */
+/* =========================
+    Navigation Bar
+    ========================= */
+
+/* Layout for navigation bar */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 150px;
 }
 
+/* Logo styling in nav */
 nav h3 {
-    color: #4E47FF;
-    font-family: sans-serif;
-    font-weight: 800;
-    font-size: 34px;
+     color: #4E47FF;
+     font-family: sans-serif;
+     font-weight: 800;
+     font-size: 34px;
 }
 
+/* Sign Up button in nav */
 nav button {
-    background-color: #4E47FF;
-    color: #fff;
-    border: none;
-    height: 48px;
-    width: 132px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.2s;
+     background-color: #4E47FF;
+     color: #fff;
+     border: none;
+     height: 48px;
+     width: 132px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background 0.2s;
 }
 
+/* Hover effect for nav button */
 nav button:hover {
-    background-color: #eedc3a;
-    color: #252432;
+     background-color: #eedc3a;
+     color: #252432;
 }
 
-/* Main */
+/* =========================
+    Main Background
+    ========================= */
+
+/* Gradient background for main content */
 main {
-    background: linear-gradient(180deg, #f8f7ff00 0%, #EDEBFF 100%);
+     background: linear-gradient(180deg, #f8f7ff00 0%, #EDEBFF 100%);
 }
 
-/* Section 1 */
+/* =========================
+    Section 1: Hero Section
+    ========================= */
+
+/* Centered hero section */
 .sec-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 150px 267.5px 0;
-    padding: 0 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 150px 267.5px 0;
+     padding: 0 200px;
 }
 
+/* Large heading in hero */
 .cooldark {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 65px;
-    color: #252432;
+     font-family: "Raleway", sans-serif;
+     font-weight: 800;
+     font-size: 65px;
+     color: #252432;
 }
 
+/* Hero section button */
 .sec-1 button {
-    background-color: #4E47FF;
-    color: #fff;
-    border: none;
-    height: 48px;
-    width: 174px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.2s;
-    margin-top: 32px;
+     background-color: #4E47FF;
+     color: #fff;
+     border: none;
+     height: 48px;
+     width: 174px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background 0.2s;
+     margin-top: 32px;
 }
 
+/* Hover effect for hero button */
 .sec-1 button:hover {
-    background-color: #eedc3a;
-    color: #252432;
+     background-color: #eedc3a;
+     color: #252432;
 }
 
-/* Section 2 */
+/* =========================
+    Section 2: Preview Section
+    ========================= */
+
+/* Layout for preview section */
 .sec-2 {
-    font-family: "Raleway", sans-serif;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 80px 141px;
-    border-radius: 20px;
-    padding: 48px;
-    gap: 40px;
+     font-family: "Raleway", sans-serif;
+     background-color: #fff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 80px 141px;
+     border-radius: 20px;
+     padding: 48px;
+     gap: 40px;
 }
 
+/* Limit width of text content */
 .sec-2 div {
-    max-width: 500px;
+     max-width: 500px;
 }
 
+/* Preview section button */
 .sec-2 button {
-    background-color: #4E47FF;
-    color: #fff;
-    border: none;
-    height: 48px;
-    width: 229px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.2s;
-    margin-top: 24px;
+     background-color: #4E47FF;
+     color: #fff;
+     border: none;
+     height: 48px;
+     width: 229px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background 0.2s;
+     margin-top: 24px;
 }
 
+/* Hover effect for preview button */
 .sec-2 button:hover {
-    background-color: #eedc3a;
-    color: #252432;
+     background-color: #eedc3a;
+     color: #252432;
 }
 
+/* Preview image styling */
 .sec-2 img {
-    border-radius: 20px;
-    max-width: 400px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+     border-radius: 20px;
+     max-width: 400px;
+     width: 100%;
+     height: auto;
+     object-fit: cover;
 }
 
-/* Section 3 */
+/* =========================
+    Section 3: Stats Section
+    ========================= */
+
+/* Stats section container */
 .sec-3 {
-    padding: 50px 140px;
-    background-color: #ceccfc;
-    border-radius: 20px;
-    margin: 80px 141px 0 141px;
+     padding: 50px 140px;
+     background-color: #ceccfc;
+     border-radius: 20px;
+     margin: 80px 141px 0 141px;
 }
 
+/* Stats section title */
 .card-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    text-align: center;
-    font-size: 38px;
-    margin: 20px 0 40px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 800;
+     text-align: center;
+     font-size: 38px;
+     margin: 20px 0 40px;
 }
 
+/* Flex grid for stats */
 .stats-grid {
-    font-family: "Open Sans", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
+     font-family: "Open Sans", sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 40px;
 }
 
+/* Individual stat item */
 .stat-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
 
+/* Stat number styling */
 .stat-number {
-    color: #4E47FF;
-    font-size: 64px;
-    font-weight: 700;
+     color: #4E47FF;
+     font-size: 64px;
+     font-weight: 700;
 }
 
+/* Stat label styling */
 .stat-label {
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: #252432;
+     font-weight: 400;
+     font-size: 1.1rem;
+     color: #252432;
 }
 
+/* Section heading for preview */
 #seeitinaction {
-    font-size: 42px;
-    font-weight: 800;
-    color: #252432;
-    margin-bottom: 16px;
+     font-size: 42px;
+     font-weight: 800;
+     color: #252432;
+     margin-bottom: 16px;
 }
 
-/* Section 4 & 5 */
+/* =========================
+    Section 4 & 5: General Section Styles
+    ========================= */
+
+/* Shared styles for sections 4 and 5 */
 .sec-4,
 .sec-5 {
-    margin: 80px 141px;
-    padding: 48px;
-    font-family: "Raleway", sans-serif;
-    border-radius: 20px;
-    min-height: 200px;
+     margin: 80px 141px;
+     padding: 48px;
+     font-family: "Raleway", sans-serif;
+     border-radius: 20px;
+     min-height: 200px;
 }
 
-/* Reviews Section */
+/* =========================
+    Reviews Section (Section 4)
+    ========================= */
+
+/* Card for each review */
 .card-section3pis {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    min-width: 0;
-    background: #fff;
-    border-radius: 16px;
-    padding: 30px;
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     min-width: 0;
+     background: #fff;
+     border-radius: 16px;
+     padding: 30px;
 }
 
+/* Layout for all reviews */
 .sundorreviews {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    padding: 40px 0;
-    max-width: 1200px;
-    margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     gap: 30px;
+     padding: 40px 0;
+     max-width: 1200px;
+     margin: 0 auto;
 }
 
+/* Star icons in reviews */
 .stars img {
-    width: 20px;
-    height: 20px;
-    margin-right: 4px;
+     width: 20px;
+     height: 20px;
+     margin-right: 4px;
 }
 
+/* Review card heading */
 .card-section3pis h2 {
-    font-size: 22px;
-    margin: 15px 0 10px;
-    color: #252432;
+     font-size: 22px;
+     margin: 15px 0 10px;
+     color: #252432;
 }
 
+/* Review text */
 .card-section3pis p {
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 20px;
+     color: #666;
+     line-height: 1.5;
+     margin-bottom: 20px;
 }
 
+/* User info layout */
 .user-info {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 16px;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     margin-top: 16px;
 }
 
+/* User avatar */
 .user-info img {
-    border-radius: 20px;
-    width: 48px;
-    height: 48px;
+     border-radius: 20px;
+     width: 48px;
+     height: 48px;
 }
 
+/* User name styling */
 .user-name {
-    font-weight: bold;
-    color: #464646;
+     font-weight: bold;
+     color: #464646;
 }
 
+/* User date styling */
 .user-date {
-    font-size: 14px;
-    color: #070707;
+     font-size: 14px;
+     color: #070707;
 }
 
+/* Section heading for reviews */
 .reviewuser {
-    font-size: 42px;
-    text-align: center;
+     font-size: 42px;
+     text-align: center;
 }
 
-/* Section 5 */
+/* =========================
+    Section 5: Call to Action
+    ========================= */
+
+/* Centered content for section 5 */
 .sec-5 {
-    text-align: center;
-    margin-top: 71px;
-    font-family: "Raleway", sans-serif;
+     text-align: center;
+     margin-top: 71px;
+     font-family: "Raleway", sans-serif;
 }
 
+/* Section 5 heading */
 .sec-5 h2 {
-    font-size: 50px;
-    font-weight: 700;
+     font-size: 50px;
+     font-weight: 700;
 }
 
+/* Section 5 subtext */
 .sec-5 p {
-    font-size: 20px;
-    color: #00000083;
+     font-size: 20px;
+     color: #00000083;
 }
 
+/* Section 5 button */
 .sec-5 button {
-    background-color: #4E47FF;
-    color: #fff;
-    border: none;
-    height: 48px;
-    width: 195px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.2s;
-    margin: 32px 0 20px 0;
+     background-color: #4E47FF;
+     color: #fff;
+     border: none;
+     height: 48px;
+     width: 195px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background 0.2s;
+     margin: 32px 0 20px 0;
 }
 
+/* Hover effect for section 5 button */
 .sec-5 button:hover {
-    background-color: #eedc3a;
-    color: #252432;
+     background-color: #eedc3a;
+     color: #252432;
 }
 
+/* Section 5 image styling */
 .sec-5 img {
-    width: 100%;
-    height: auto;
-    max-width: 840px;
-    border-radius: 20px;
+     width: 100%;
+     height: auto;
+     max-width: 840px;
+     border-radius: 20px;
 }
 
-/* Form Section */
+/* =========================
+    Form Section
+    ========================= */
+
+/* Layout for form header and form */
 .formhead {
-    margin-right: 150px;
-    margin-left: 150px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
+     margin-right: 150px;
+     margin-left: 150px;
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 30px;
 }
 
+/* Large heading for form */
 .formhea {
-    font-size: 97px;
-    font-weight: 800;
-    font-family: "Raleway", sans-serif;
-    height: 232px;
-    width: 528px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+     font-size: 97px;
+     font-weight: 800;
+     font-family: "Raleway", sans-serif;
+     height: 232px;
+     width: 528px;
+     margin-top: 200px;
+     margin-bottom: 200px;
 }
 
+/* Get in touch button */
 .getintouch {
-    background-color: #4E47FF;
-    color: #fff;
-    border: none;
-    height: 50px;
-    width: 497px;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.2s;
+     background-color: #4E47FF;
+     color: #fff;
+     border: none;
+     height: 50px;
+     width: 497px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background 0.2s;
 }
 
+/* Hover effect for form button */
 .getintouch:hover {
-    background-color: #eedc3a;
-    color: #252432;
+     background-color: #eedc3a;
+     color: #252432;
 }
+
+/* Input and textarea styles */
 .usform,
 .usformboro {
-    height: 50px;
-    max-width: 497px;
-    width: 497px;
-    border-radius: 10px;
-    border: none;
-    padding: 15px 30px;
-    font-family: "Raleway", sans-serif;
-    font-size: 1rem;
-    box-sizing: border-box;
+     height: 50px;
+     max-width: 497px;
+     width: 497px;
+     border-radius: 10px;
+     border: none;
+     padding: 15px 30px;
+     font-family: "Raleway", sans-serif;
+     font-size: 1rem;
+     box-sizing: border-box;
 }
 
+/* Single-line input */
 .usform {
-    height: 50px;
+     height: 50px;
 }
 
+/* Multi-line textarea */
 .usformboro {
-    min-height: 135px;
-    resize: vertical;
-    margin-bottom: 12px; /* Added space at the bottom */
+     min-height: 135px;
+     resize: vertical;
+     margin-bottom: 12px; /* Added space at the bottom */
 }
+
+/* Label styling for form */
 .labelin {
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    color: black;
-    display: block;
-    margin-bottom: 1px;
+     font-family: "Raleway", sans-serif;
+     font-weight: 600;
+     color: black;
+     display: block;
+     margin-bottom: 1px;
 }
 
+/* =========================
+    Footer Section
+    ========================= */
 
+/* Footer container */
 .foot {
-    font-family: "Raleway", sans-serif ;
-   display: flex;
-   justify-content: center;
-   text-align: center;
+     font-family: "Raleway", sans-serif ;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     background-color: white;
+     height: 428px;
+     padding-top: 40px;
 }
-.footnav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    text-decoration: none;
 
+/* Footer navigation links */
+.footnav {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     margin-top: 20px;
+     text-decoration: none;
 }
-.foot{
-    background-color: white;
-    height: 428px;
-    padding-top: 40px;
-}
+
+/* Footer link styles */
 .footnav a {
-    color: #8987A1;
-    font-weight: 600;
-    text-decoration: none;
+     color: #8987A1;
+     font-weight: 600;
+     text-decoration: none;
 }
+
+/* Footer link hover effect */
 .footnav a:hover {
-    color: #4E47FF;
+     color: #4E47FF;
 }
+
+/* Footer logo styling */
 .footlogo {
-    font-size: 100px;
-    font-weight: 900;
-    color: #4E47FF;
-    margin-bottom: 2px;
-    height: 121px;
-    /* width: 291px; */
+     font-size: 100px;
+     font-weight: 900;
+     color: #4E47FF;
+     margin-bottom: 2px;
+     height: 121px;
+     /* width: 291px; */
 }
+
+/* Footer description text */
 .foottext {
-    font-size: 20px;
-    color: #8987A1;
-    margin-top: 10px;
-    width: 680px;
-    margin-left: auto;
-    margin-right: auto;
-} 
+     font-size: 20px;
+     color: #8987A1;
+     margin-top: 10px;
+     width: 680px;
+     margin-left: auto;
+     margin-right: auto;
+}
